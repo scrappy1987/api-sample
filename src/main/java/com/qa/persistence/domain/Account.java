@@ -12,8 +12,11 @@ public class Account {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Id
 	private Long id;
+	
 	private String firstName;
+	
 	private String secondName;
+	
 	@Size(min = 6, max = 6)
 	private String accountNumber;
 
