@@ -7,6 +7,8 @@ import org.apache.log4j.Logger;
 import com.qa.persistence.repository.AccountRepository;
 
 public class AccountServiceImpl implements AccountService {
+	
+	// in this class is where we put the business rules that we will be using for our application
 
 	@Inject
 	private AccountRepository repo;

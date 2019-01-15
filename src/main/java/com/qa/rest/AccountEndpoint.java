@@ -14,12 +14,14 @@ import org.apache.log4j.Logger;
 import com.qa.business.service.AccountService;
 
 @Path("/account")
+//class i want to activate
 public class AccountEndpoint {
 	
 	@Inject
 	private AccountService service;
 
 	@Path("/getAllAccounts")
+	// method that i want to activate
 	@GET
 	@Produces({ "application/json" })
 	public String getAllAccounts() {
